@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif; /* change font */
+    height: 100%;
+    width: 50%; /* reduce page from original size*/
+    margin: auto;
+    background-color: whitesmoke;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline; /* make header list show in line */
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    border-bottom: 1px solid black; /* make a line under header*/
+    padding-bottom: 1px;
+}
+
+#home {
+    float: right;
+}
+
+
+#archive {
+    float: right;
+}
+
+#about {
+    float: right;
+}
+
